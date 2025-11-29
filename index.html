@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="header-box">
+            <img src="logo.png" alt="EICT Logo" height="10%" width="9%" class="logo">
+            <h3>Employment Application Form</h3>
+        </div>
+
+        <form action="submit.php" method="post" enctype="multipart/form-data" >
+            <label>Full Name:</label>
+            <input type="text" name="fullname" required>
+
+            <label>Email Address:</label>
+            <input type="email" name="email" required>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" required>
+
+            <label>Gender:</label>
+            <select name="gender" required>
+                <option value="">--Select Gender--</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required>
+
+            <label>Position Applied For:</label>
+            <input type="text" name="position" required>
+
+            <label>Highest Qualification:</label>
+            <select name="qualification" required>
+                <option value="">--Select--</option>
+                <option>SSCE</option>
+                <option>OND/ND</option>
+                <option>HND</option>
+                <option>BSc</option>
+                <option>MSc</option>
+            </select>
+            <label>Upload CV:</label>
+            <input type="file" name="cv">
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+</body>
+</html>

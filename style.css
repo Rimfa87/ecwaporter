@@ -1,0 +1,59 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: #c0c0c0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 40%;
+            background: #0ff;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        
+        h2, h3 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 15px 0;
+            border: 2px solid #aaa;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #2a37e6e8;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1a5cc1;
+        }
+
+        /* FIX: Arrange logo + heading without clashing */
+        .header-box {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* spacing between logo and title */
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+        }
